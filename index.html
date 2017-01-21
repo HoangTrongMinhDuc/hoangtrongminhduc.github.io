@@ -98,7 +98,7 @@
 	top:1px;
 	}
 	
-	.indented {   padding-left: 15%;   padding-right: 15%; }
+	
 	.tit {   padding-left: 15%;   padding-right: 15%; padding-top: 20pt; }
 	.p1 {
 			background-color: #c3f5a9;
@@ -116,7 +116,7 @@
 	margin-left: 0px;
 	left: 0px;
 	right: 0px;
-	position: relative;
+	position: fixed;
 	z-index: 9999;
 	}
 	.fixed { position:fixed;}
@@ -126,10 +126,7 @@
 	    margin-left: 5%;
 		margin-right:5%;
 		}
-    </style>
-    <script>
-	window.console = window.console || function(t) {};
-	</script>
+	  </style>
 	</head>
 
 	<body bgcolor="#D8D8D8">
@@ -159,19 +156,7 @@
 	  js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.8&appId=1090683800968977";
 	  fjs.parentNode.insertBefore(js, fjs);
 	}(document, 'script', 'facebook-jssdk'));</script>
-	 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
-	<script type="text/javascript">
-	$(document).ready(function() {
-	var aboveHeight = $('header').outerHeight();
-    $(window).scroll(function(){
-        if ($(window).scrollTop() > aboveHeight){
-        $('sticknav').addClass('fixed').css('top','0').next().css('padding-top','60px');
-        } else {
-       $('sticknav').removeClass('fixed').next().css('padding-top','0');
-        }
-    });
-	});
-	</script>
+	 
 	<sticknav>
     <div id="menu">
 	<ul>

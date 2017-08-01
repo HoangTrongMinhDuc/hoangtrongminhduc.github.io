@@ -83,7 +83,18 @@
 	top:1px;
 }
 
-	
+	/*layout cho comment fb va disqus*/
+			.FBleft {
+			   position:absolute;
+			   
+			   left: 5%;right:50%;
+			}
+			.DQright {
+			   position:absolute;
+			   
+			   left:50%;right: 5%;
+			}
+
 	
 	
 	 sticknav {
@@ -163,12 +174,12 @@
     <sticknav>
     <div id="menu">
 	<ul>
-    <li><a href="https://mangavn.github.io/">Trang chủ</a></li>
+    <li><a href="index.html">Trang chủ</a></li>
     <li><a href="download.html">Download</a></li>
     <li><a href="Redrawindex.html">Redraw</a></li>
     <li><a href="typeindex.html">Typeset</a></li>
     <li><a href="guide.html">Thủ thuật</a></li>
-    <li><a href="chat.html">Chat</a></li>
+    <li><a href="chat.html">Cộng đồng</a></li>
     <li><a href="link.html">Liên kết</a></li>
     </li>
 	</ul>
@@ -179,7 +190,7 @@
 	<br>
 	<br>
 	<center>
-		<a href="https://discord.gg/yxkHZZs" class="myButton">CHAT</a>
+		<a href="https://discord.gg/yxkHZZs" class="myButton">Click here to join</a>
 	<br>Kênh chat thảo luận về manga
 	<p class="p2" style="background: #c3f5a9;"><i>Hướng dẫn tham gia kênh:</i></p>
 	</center>
@@ -205,23 +216,33 @@
     	<br>
     	<br>
 	</div>
-	<center><div class="fb-comments" data-href="https://mangavn.github.io/chat.html" data-numposts="10"></div></center>
+	
 
 	<a style="display:scroll;position:fixed;bottom:5px;right:5px;" href="#" title="Lên đầu trang">
 	<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fmangavn.github.io%2F&width=123&layout=button_count&action=like&size=small&show_faces=true&share=true&height=46&appId=1090683800968977" width="123" height="46" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-	<img width="50" height="50" src="image/top.png"/></a> 
+	<img width="50" height="50" src="image/top.png"/>
+	<br><script id="_waumc3">var _wau = _wau || []; _wau.push(["small", "o55qmv00b1ju", "mc3"]);
+			(function() {var s=document.createElement("script"); s.async=true;
+			s.src="//widgets.amung.us/small.js";
+			document.getElementsByTagName("head")[0].appendChild(s);
+			})();</script>
+	</a> 
+	<div class="FBleft">
+	<div class="fb-comments" data-href="https://mangavn.github.io/chat.html" data-numposts="10"></div>
+	</div>
+	<div class="DQright">
 	<div id="disqus_thread"></div>
 	<script>
 
 	/**
 	*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
 	*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-	/*
+	
 	var disqus_config = function () {
-	this.page.url = https://mangavn.github.io;  // Replace PAGE_URL with your page's canonical URL variable
-	this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+	this.page.url = https://mangavn.github.io/chat.html;  // Replace PAGE_URL with your page's canonical URL variable
+	this.page.identifier = https://mangavn.github.io/chat.html; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 	};
-	*/
+	
 	(function() { // DON'T EDIT BELOW THIS LINE
 	var d = document, s = d.createElement('script');
 	s.src = '//mangavn-github-io.disqus.com/embed.js';
@@ -230,6 +251,7 @@
 	})();
 	</script>
 	<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+	</div>
     </body>
     </html>
     

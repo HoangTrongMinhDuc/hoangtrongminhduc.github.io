@@ -1,294 +1,313 @@
 <!DOCTYPE html>
 <html >
-  <head>
-		<meta content='Trang chia sẻ hướng dẫn liên quan tới edit manga' property='og:title'/>
-		<meta content='Giúp những bạn mới bắt đầu có một nguồn thông tin tốt để tham khảo và làm quen edit manga một cách chuẩn mực. Những kiến thức ở đây không có gì khó khăn cả...' property='og:description'/>
-		<meta content='https://mangavn.github.io/image/cover.jpg' property='og:image'/>
-    		<meta charset="UTF-8">
-		<link rel="shortcut icon" href="image/iconweb.ico" type="image/x-icon" />
-		<link rel="icon" href="image/iconweb.ico" type="image/x-icon" />
-    		<title>Trang chia sẻ hướng dẫn liên quan tới edit manga</title>
-    <style>
+	<head>
+			<meta content='Trang chia sẻ hướng dẫn liên quan tới edit manga' property='og:title'/>
+			<meta content='Giúp những bạn mới bắt đầu có một nguồn thông tin tốt để tham khảo và làm quen edit manga một cách chuẩn mực. Những kiến thức ở đây không có gì khó khăn cả...' property='og:description'/>
+			<meta content='https://mangavn.github.io/image/cover.jpg' property='og:image'/>
+	    	<meta charset="UTF-8">
+			<link rel="shortcut icon" href="image/iconweb.ico" type="image/x-icon" />
+			<link rel="icon" href="image/iconweb.ico" type="image/x-icon" />
+	    	<title>Trang chia sẻ hướng dẫn liên quan tới edit manga</title>
+	    <style>
 
-    	/*menu bar style*/
-		* {
-		margin: 0;
-		padding: 0;
-		}
-		body {
-		font-family: sans-serif;
-		color: #333;
-		}
-		#menu ul {
-		background: #1F568B;
-		list-style-type: none;
-		text-align: center;
-		box-shadow: 0px 2px 2px rgba(0,0,0,0.5);
-		}
-		#menu li {
-		color: #f1f1f1;
-		display: inline-block;
-		width: 120px;
-		height: 40px;
-		line-height: 40px;
-		margin-left: -5px;
-		}
-		#menu a {
-		text-decoration: none;
-		color: #fff;
-		display: block;
-		}
-		#menu a:hover {
-		background: #F1F1F1;
-		color: #333;
-		}
-		.sub-menu {
-		display: none;
-		position: absolute;
-		}
-		#menu li {
-		position: relative;
-		}	
-		#menu li:hover .sub-menu {
-		display: block;
-		}
-		.sub-menu li {
-		margin-left: 0 !important;
-		}
-		.sub-menu > ul {
-		display: none !mportant;
-		}
-		
-		/*nut spoil*/
-		.myButton {
-		-moz-box-shadow:inset 0px -3px 7px 0px #29bbff;
-		-webkit-box-shadow:inset 0px -3px 7px 0px #29bbff;
-		box-shadow:inset 0px -3px 7px 0px #29bbff;
-		background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #2dabf9), color-stop(1, #0688fa));
-		background:-moz-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
-		background:-webkit-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
-		background:-o-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
-		background:-ms-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
-		background:linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
-		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2dabf9', endColorstr='#0688fa',GradientType=0);
-		background-color:#2dabf9;
-		-moz-border-radius:0px;
-		-webkit-border-radius:3px;
-		border-radius:3px;
-		border:1px solid #0b0e07;
-		display:inline-block;
-		cursor:pointer;
-		color:#ffffff;
-		font-family:Arial;
-		font-size:15px;
-		padding:5px 40px;
-		text-decoration:none;
-		text-shadow:0px 1px 0px #263666;
-		}
-		.myButton:hover {
-		background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0688fa), color-stop(1, #2dabf9));
-		background:-moz-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
-		background:-webkit-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
-		background:-o-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
-		background:-ms-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
-		background:linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
-		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0688fa', endColorstr='#2dabf9',GradientType=0);
-		background-color:#0688fa;
-		}
-		.myButton:active {
-		position:relative;
-		top:1px;
-		}
-		
-		/*layout cho comment fb va disqus*/
-		   .FBleft {
-		   position:absolute;
-		   
-		   left: 5%;right:50%;
-		   }
-		   .DQright {
-		   position:absolute;
-		   
-		   left:50%;right: 5%;
-		   }
-
-		/*background color cho text*/
-		.tit {   padding-left: 15%;   padding-right: 15%; padding-top: 20pt; }
-		.p1 {
-				background-color: #c3f5a9;
+	    	/*menu bar style*/
+			* {
+			margin: 0;
+			padding: 0;
 			}
-		p.p2 {
-				
-				margin-left: inherit;
-				margin-right: inherit;
+			body {
+			font-family: sans-serif;
+			color: #333;
+			}
+			#menu ul {
+			background: #1F568B;
+			list-style-type: none;
+			text-align: center;
+			box-shadow: 0px 2px 2px rgba(0,0,0,0.5);
+			}
+			#menu li {
+			color: #f1f1f1;
+			display: inline-block;
+			width: 120px;
+			height: 40px;
+			line-height: 40px;
+			margin-left: -5px;
+			}
+			#menu a {
+			text-decoration: none;
+			color: #fff;
+			display: block;
+			}
+			#menu a:hover {
+			background: #F1F1F1;
+			color: #333;
+			}
+			.sub-menu {
+			display: none;
+			position: absolute;
+			}
+			#menu li {
+			position: relative;
+			}	
+			#menu li:hover .sub-menu {
+			display: block;
+			}
+			.sub-menu li {
+			margin-left: 0 !important;
+			}
+			.sub-menu > ul {
+			display: none !mportant;
+			}
+			
+			/*nut spoil*/
+			.myButton {
+			-moz-box-shadow:inset 0px -3px 7px 0px #29bbff;
+			-webkit-box-shadow:inset 0px -3px 7px 0px #29bbff;
+			box-shadow:inset 0px -3px 7px 0px #29bbff;
+			background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #2dabf9), color-stop(1, #0688fa));
+			background:-moz-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
+			background:-webkit-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
+			background:-o-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
+			background:-ms-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
+			background:linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+			filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2dabf9', endColorstr='#0688fa',GradientType=0);
+			background-color:#2dabf9;
+			-moz-border-radius:0px;
+			-webkit-border-radius:3px;
+			border-radius:3px;
+			border:1px solid #0b0e07;
+			display:inline-block;
+			cursor:pointer;
+			color:#ffffff;
+			font-family:Arial;
+			font-size:15px;
+			padding:5px 40px;
+			text-decoration:none;
+			text-shadow:0px 1px 0px #263666;
+			}
+			.myButton:hover {
+			background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0688fa), color-stop(1, #2dabf9));
+			background:-moz-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
+			background:-webkit-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
+			background:-o-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
+			background:-ms-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
+			background:linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
+			filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0688fa', endColorstr='#2dabf9',GradientType=0);
+			background-color:#0688fa;
+			}
+			.myButton:active {
+			position:relative;
+			top:1px;
+			}
+			
+			/*layout cho comment fb va disqus*/
+			.FBleft {
+			   position:absolute;
+			   
+			   left: 5%;right:50%;
+			}
+			.DQright {
+			   position:absolute;
+			   
+			   left:50%;right: 5%;
 			}
 
-		/*meunu*/
-		 sticknav {
-		background: #ffffff;
-		height: 30px;
-		width: 100%;
-		margin-right: 0px;
-		margin-left: 0px;
-		left: 0px;
-		right: 0px;
-		position: fixed;
-		z-index: 9999;
-		}
-		.fixed { position:fixed;}
-
-
-		/*layout can le cho text*/
-		div.layout {
-			background-color: #f0f8ff;
-		    margin-left: 5%;
-			margin-right:5%;
+			.cmt{
+				background-color: #D8D8D8;
+				box-shadow: 0px 0px 3px rgba(0,0,0,0.5);
 			}
-	  </style>
+
+			/*background color cho text*/
+			.tit {   padding-left: 15%;   padding-right: 15%; padding-top: 20pt; }
+			.p1 {
+					background-color: #E9EBEE;
+				}
+			p.p2 {
+					
+					margin-left: 10%;
+					margin-right: 10%;
+					text-align: justify;
+				}
+
+			/*meunu*/
+			 sticknav {
+				background: #ffffff;
+				height: 30px;
+				width: 100%;
+				margin-right: 0px;
+				margin-left: 0px;
+				left: 0px;
+				right: 0px;
+				position: fixed;
+				z-index: 9999;
+			}
+			.fixed { position:fixed;}
+
+
+			/*layout can le cho text*/
+			div.layout {
+				background-color: #ffffff;
+			    margin-left: 5%;
+				margin-right:5%;
+				box-shadow: 0px 0px 3px rgba(0,0,0,0.5);
+				}
+		</style>
 	</head>
 
-	<body bgcolor="#D8D8D8">
+	<body bgcolor="#F1F1F1">
 		<!-					facebook comment script					->
 		<script>
-		  window.fbAsyncInit = function() {
-			FB.init({
-			  appId      : '1090683800968977',
-			  xfbml      : true,
-			  version    : 'v2.8'
-			});
-			FB.AppEvents.logPageView();
-		  };
-		  (function(d, s, id){
-			 var js, fjs = d.getElementsByTagName(s)[0];
-			 if (d.getElementById(id)) {return;}
-			 js = d.createElement(s); js.id = id;
-			 js.src = "//connect.facebook.net/en_US/sdk.js";
-			 fjs.parentNode.insertBefore(js, fjs);
-		   }(document, 'script', 'facebook-jssdk'));
+			  window.fbAsyncInit = function() {
+				FB.init({
+				  appId      : '1090683800968977',
+				  xfbml      : true,
+				  version    : 'v2.8'
+				});
+				FB.AppEvents.logPageView();
+			  };
+			  (function(d, s, id){
+				 var js, fjs = d.getElementsByTagName(s)[0];
+				 if (d.getElementById(id)) {return;}
+				 js = d.createElement(s); js.id = id;
+				 js.src = "//connect.facebook.net/en_US/sdk.js";
+				 fjs.parentNode.insertBefore(js, fjs);
+			   }(document, 'script', 'facebook-jssdk'));
 		</script>
-			<div id="fb-root"></div>
+		<div id="fb-root"></div>
 		<script>(function(d, s, id) {
-		  var js, fjs = d.getElementsByTagName(s)[0];
-		  if (d.getElementById(id)) return;
-		  js = d.createElement(s); js.id = id;
-		  js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.8&appId=1090683800968977";
-		  fjs.parentNode.insertBefore(js, fjs);
-		}(document, 'script', 'facebook-jssdk'));
+			  var js, fjs = d.getElementsByTagName(s)[0];
+			  if (d.getElementById(id)) return;
+			  js = d.createElement(s); js.id = id;
+			  js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.8&appId=1090683800968977";
+			  fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));
 		</script>
 
-	<!-						menu						->
-	<sticknav>
-    <div id="menu">
-	<ul>
-    <li><a href="index.html">Trang chủ</a></li>
-    <li><a href="download.html">Download</a></li>
-    <li><a href="Redrawindex.html">Redraw</a></li>
-    <li><a href="typeindex.html">Typeset</a></li>
-    <li><a href="guide.html">Thủ thuật</a></li>
-    <li><a href="chat.html">Cộng đồng</a></li>
-    <li><a href="link.html">Liên kết</a></li>
-    </li>
-	</ul>
-	</div>
-	</sticknav>
-	
-    <script>
-	if (document.location.search.match(/type=embed/gi)) {
-    window.parent.postMessage("resize", "*");
-	}
-	</script>
-
-
-	<br>
-	<br>
-	<br>
-	<center><img src="image/welcome.gif" width="20%" height="20%"></center>
-
-	<!-						noi dung						->
-	<div class="layout">
-	<p class="tit">
-		<div class="p1">
-			<font size=6 color="#0080FF">
-				<center>GIỚI THIỆU</center>
-			</font>
-		</div>
-	</p>
-	<br>
-	<p class="p2">
-		<br>
-		<b>
-		Mục đích mình viết ra trang web này là để chia sẻ những kiến thức đã thu lượm được về edit manga. Giúp những bạn mới bắt đầu có một nguồn thông tin tốt để tham khảo và làm quen edit manga một cách chuẩn mực. Những kiến thức ở đây không có gì khó khăn cả, để luyện được 1 kĩ năng edit tốt bạn cần có sự kiên trì(lì lợm), đam mê với công việc, có tinh thần trách nhiệm, có sự cầu tiến cầu toàn, có năng lực tự học tự mò để dần hoàn thiện kĩ năng. Easy come easy go, mong ai đã trót đam mê thì đam mê cho trót làm có tâm vào sản phẩm của mình, còn đam mê bồng bột sáng nắng chiều mưa, gặp khó bỏ qua làm qua loa thì bạn nên nghỉ sớm cho đỡ rước cái khổ vào thân.
-		</b>
-	</p>
-	<br>
-	<br>
-	<br>
-	<center>
-		<img src="image/cover.jpg" width="80%" height="80%">
-	</center>
-	<br>
-	<br>
-	<center>
-		<iframe width="50%" height="315" src="https://docs.google.com/document/d/1RHo6QiDGy04GRfBKcevIKH-mUiCGVcsN_q78n1ZRZTE/pub?embedded=true"></iframe>
-	</center>
-	<br>
-	<center>
-	<button title="Click để Hiện/Ẩn nội dung" class="myButton" type="button" onclick="if(document.getElementById('spoiler') .style.display=='none') {document.getElementById('spoiler') .style.display=''}else{document.getElementById('spoiler') .style.display='none'}">About me</button>
-	</center>
-	<div id="spoiler" style="display:none">
-		<div class="layout">
-			<br>-Chào! Mình là HTML5.
-			<br>-Mình tham gia edit manga khoảng từ năm 2013, đến với công việc này với một sự tình cờ có thể nói là đm(định mệnh), đàn em sinh sau đẻ muộn tiếp thu kiến thức cơ bản mà những người đi trước truyền lại(chủ yếu qua các tut nhỏ trên vns hồi đó), vận dụng thực hành hằng ngày, cùng với sự mò mẫm thì khả năng edit manga của mình cũng đi lên khá nhanh sau đó. Kĩ năng redraw, type và clean của mình tương đối đồng đều không nghiêng về một hướng nào cả,  ở đây mình chỉ có thể tự tin hướng dẫn các bạn làm tốt phần redraw, type manga và một số kĩ năng bên lề, phần clean mình không tự tin có thể hướng dẫn các bạn được vì trình mình chỉ ở mức đủ dùng.
-			<br>-Với công việc này việc làm tốt hay không phụ thuộc vào nhiều yếu tố, không phải lúc nào cũng đạt phong độ tốt được. Ví dụ như bạn thay chuột mới/bàn phím mới thì nó cũng ảnh hưởng tới tay vẽ rồi, còn lúc tâm trạng không có/lười làm thì có cố cũng không ra được sản phẩm tốt... nhiều yếu tố ngoại cảnh ảnh hưởng tới việc bạn làm, không đơn thuần là kĩ năng tốt sẽ luôn làm tốt, công việc này bắt nguồn từ sự yêu thích/đam mê của bạn thì tinh thần cũng đóng vai trò quan trọng khi làm việc.
-			<br>-Mình sẽ thường xuyên cập nhật và chỉnh sửa thêm bớt lại các bài viết nếu cần thiết, ai có kinh nghiệm gì hay thì hãy cùng chia sẻ với nhau, tránh trường hợp ghen ghét không đáng có với đứa gà như mình :) Blog này mình tự code lấy từ những kiến thức lượm lặt đọc qua thêm css để viết, cần gì thì học cái đó thôi mình không muốn tốn nhiều thời gian để tìm hiểu a>z, mặc dù có các theme sẵn để dùng nhưng mình muốn tự thử thách bản thân và độc lập (cũng vì thế mà mình chọn github làm host)  :D  Mong các bạn đừng chê cười những dòng code ngố của mình, cứ code thành sản phẩm cái đã mình sẽ tối ưu hóa lúc hoàn thành.
-		</div>
-	</div>
-	<br>
-	<br>
-	</div>
-	<br>
-	<br>
-	<br>
-	
-	<!-						nut top va like share fb						->
-	<a style="display:scroll;position:fixed;bottom:5px;right:5px;" href="#" title="Lên đầu trang">
-	<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fmangavn.github.io%2F&width=123&layout=button_count&action=like&size=small&show_faces=true&share=true&height=46&appId=1090683800968977" width="123" height="46" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-	<img width="50" height="50" src="image/top.png"/>
-		<br><script id="_waudo0">var _wau = _wau || []; _wau.push(["small", "6gp9qb03ilrb", "do0"]);
-		(function() {var s=document.createElement("script"); s.async=true;
-		s.src="//widgets.amung.us/small.js";
-		document.getElementsByTagName("head")[0].appendChild(s);
-		})();</script>
+		<!-						menu						->
+		<sticknav>
+		    <div id="menu">
+				<ul>
+				    <li><a href="index.html">Trang chủ</a></li>
+				    <li><a href="download.html">Download</a></li>
+				    <li><a href="Redrawindex.html">Redraw</a></li>
+				    <li><a href="typeindex.html">Typeset</a></li>
+				    <li><a href="guide.html">Thủ thuật</a></li>
+				    <li><a href="chat.html">Cộng đồng</a></li>
+				    <li><a href="link.html">Liên kết</a></li>
+				    </li>
+				</ul>
+			</div>
+		</sticknav>
 		
-	</a>
-
-	<!-						comment fb						->
-	<div class="FBleft">
-		<div class="fb-comments" data-href="https://mangavn.github.io/" data-numposts="10" data-width="100%"></div>
-	</div>
-
-	<!-						comment disqus						->
-	<div class="DQright">
-		<div id="disqus_thread">
-		</div>
-		<script>
-		/**
-		*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-		*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-		var disqus_config = function () {
-		this.page.url = "https://mangavn.github.io";  // Replace PAGE_URL with your page's canonical URL variable
-		this.page.identifier = "https://mangavn.github.io"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-		};
-		(function() { // DON'T EDIT BELOW THIS LINE
-		var d = document, s = d.createElement('script');
-		s.src = '//mangavn-github-io.disqus.com/embed.js';
-		s.setAttribute('data-timestamp', +new Date());
-		(d.head || d.body).appendChild(s);
-		})();
+	    <script>
+			if (document.location.search.match(/type=embed/gi)) {
+		    window.parent.postMessage("resize", "*");
+			}
 		</script>
-		<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-	</div>
 
-  </body>
+
+		<br>
+		<br>
+		<br>
+		<center><img src="image/welcome.gif" width="20%" height="20%"></center>
+
+		<!-						noi dung						->
+		<div class="layout">
+			<p class="tit">
+				<div class="p1">
+					<font size=6 color="#0080FF">
+						<center>GIỚI THIỆU</center>
+					</font>
+				</div>
+			</p>
+			<br>
+			<p class="p2">
+						<script>
+			  (function() {
+			    var cx = '010594054937208455950:nb4tjxsced0';
+			    var gcse = document.createElement('script');
+			    gcse.type = 'text/javascript';
+			    gcse.async = true;
+			    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+			    var s = document.getElementsByTagName('script')[0];
+			    s.parentNode.insertBefore(gcse, s);
+			  })();
+			</script>
+			<gcse:search></gcse:search>
+				<br>
+					<font size="2">
+					Mục đích mình viết ra trang web này là để chia sẻ những kiến thức đã thu lượm được về edit manga. Giúp những bạn mới bắt đầu có một nguồn thông tin tốt để tham khảo và làm quen edit manga một cách chuẩn mực. Những kiến thức ở đây không có gì khó khăn cả, để luyện được 1 kĩ năng edit tốt bạn cần có sự kiên trì(lì lợm), đam mê với công việc, có tinh thần trách nhiệm, có sự cầu tiến cầu toàn, có năng lực tự học tự mò để dần hoàn thiện kĩ năng. Easy come easy go, mong ai đã trót đam mê thì đam mê cho trót làm có tâm vào sản phẩm của mình, còn đam mê bồng bột sáng nắng chiều mưa, gặp khó bỏ qua làm qua loa thì bạn nên nghỉ sớm cho đỡ rước cái khổ vào thân.
+					</font>
+			</p>
+			<br>
+			<br>
+			<br>
+			<center>
+				<img src="image/cover.jpg" width="80%" height="80%">
+			</center>
+			<br>
+			<br>
+			<br>
+			<center>
+				<iframe src="https://docs.google.com/document/d/1RHo6QiDGy04GRfBKcevIKH-mUiCGVcsN_q78n1ZRZTE/pub?embedded=true" width="65%" height="315"></iframe>
+				<br>
+				<button title="Click để Hiện/Ẩn nội dung" class="myButton" type="button" onclick="if(document.getElementById('spoiler') .style.display=='none') {document.getElementById('spoiler') .style.display=''}else{document.getElementById('spoiler') .style.display='none'}">About me</button>
+			</center>
+			<div id="spoiler" style="display:none">
+				<p class="p2">
+					<font size="2">
+						<br>-Chào! Mình là HTML5.
+						<br>-Mình tham gia edit manga khoảng từ năm 2013, đến với công việc này với một sự tình cờ có thể nói là đm(định mệnh), đàn em sinh sau đẻ muộn tiếp thu kiến thức cơ bản mà những người đi trước truyền lại(chủ yếu qua các tut nhỏ trên vns hồi đó), vận dụng thực hành hằng ngày, cùng với sự mò mẫm thì khả năng edit manga của mình cũng đi lên khá nhanh sau đó. Kĩ năng redraw, type và clean của mình tương đối đồng đều không nghiêng về một hướng nào cả,  ở đây mình chỉ có thể tự tin hướng dẫn các bạn làm tốt phần redraw, type manga và một số kĩ năng bên lề, phần clean mình không tự tin có thể hướng dẫn các bạn được vì trình mình chỉ ở mức đủ dùng.
+						<br>-Với công việc này việc làm tốt hay không phụ thuộc vào nhiều yếu tố, không phải lúc nào cũng đạt phong độ tốt được. Ví dụ như bạn thay chuột mới/bàn phím mới thì nó cũng ảnh hưởng tới tay vẽ rồi, còn lúc tâm trạng không có/lười làm thì có cố cũng không ra được sản phẩm tốt... nhiều yếu tố ngoại cảnh ảnh hưởng tới việc bạn làm, không đơn thuần là kĩ năng tốt sẽ luôn làm tốt, công việc này bắt nguồn từ sự yêu thích/đam mê của bạn thì tinh thần cũng đóng vai trò quan trọng khi làm việc.
+						<br>-Mình sẽ thường xuyên cập nhật và chỉnh sửa thêm bớt lại các bài viết nếu cần thiết, ai có kinh nghiệm gì hay thì hãy cùng chia sẻ với nhau, tránh trường hợp ghen ghét không đáng có với đứa gà như mình :) Blog này mình tự code lấy từ những kiến thức lượm lặt đọc qua thêm css để viết, cần gì thì học cái đó thôi mình không muốn tốn nhiều thời gian để tìm hiểu a>z, mặc dù có các theme sẵn để dùng nhưng mình muốn tự thử thách bản thân và độc lập (cũng vì thế mà mình chọn github làm host)  :D  Mong các bạn đừng chê cười những dòng code ngố của mình, cứ code thành sản phẩm cái đã mình sẽ tối ưu hóa lúc hoàn thành.
+					</font>
+				</p>
+			</div>
+			<br>
+			<br>
+		</div>
+		<br>
+		<br>
+		<br>
+		
+		<!-						nut top va like share fb						->
+		<a style="display:scroll;position:fixed;bottom:5px;right:5px;" href="#" title="Lên đầu trang">
+			<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fmangavn.github.io%2F&width=123&layout=button_count&action=like&size=small&show_faces=true&share=true&height=46&appId=1090683800968977" width="123" height="46" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+			<img width="50" height="50" src="image/top.png"/>
+			<br><script id="_waumc3">var _wau = _wau || []; _wau.push(["small", "o55qmv00b1ju", "mc3"]);
+			(function() {var s=document.createElement("script"); s.async=true;
+			s.src="//widgets.amung.us/small.js";
+			document.getElementsByTagName("head")[0].appendChild(s);
+			})();</script>
+		</a>
+
+		<div class="cmt">
+		<!-						comment fb						->
+		<div class="FBleft">
+			<div class="fb-comments" data-href="https://mangavn.github.io/" data-numposts="10" data-width="100%"></div>
+		</div>
+
+		<!-						comment disqus						->
+		<div class="DQright">
+			<div id="disqus_thread"></div>
+			<script>
+				/**
+				*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+				*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+				var disqus_config = function () {
+				this.page.url = "https://mangavn.github.io";  // Replace PAGE_URL with your page's canonical URL variable
+				this.page.identifier = "https://mangavn.github.io"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+				};
+				(function() { // DON'T EDIT BELOW THIS LINE
+				var d = document, s = d.createElement('script');
+				s.src = '//mangavn-github-io.disqus.com/embed.js';
+				s.setAttribute('data-timestamp', +new Date());
+				(d.head || d.body).appendChild(s);
+				})();
+			</script>
+			<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+		</div>
+		</div>
+ 	</body>
 </html>
  

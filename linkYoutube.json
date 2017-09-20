@@ -1,0 +1,33 @@
+{
+"CaNhac"://mang ca nhac bat dau o day
+	[ //bat dau mang
+	
+		{ //1 phan tu trong ca nhac
+			"maVideo": "Y29OrOVJUKs",
+			"titleVideo": "Hương Tràm - Em Gái Mưa (Official MV)"
+		},
+		
+		{//1 phan tu trong ca nhac
+			"maVideo": "Y29OrOVJUKs",
+			"titleVideo": "Hương Tràm - Em Gái Mưa (Official MV)"
+		}
+		//them phan tu o day theo form tuong tu tren
+		
+	],//ket thuc mang ca nhac
+	
+"HoatHinh":
+	[ //bat dau mang
+	
+		{ //1 phan tu trong ca nhac
+			"maVideo": "Y29OrOVJUKs",
+			"titleVideo": "Hương Tràm - Em Gái Mưa (Official MV)"
+		},
+		
+		{//1 phan tu trong ca nhac
+			"maVideo": "Y29OrOVJUKs",
+			"titleVideo": "Hương Tràm - Em Gái Mưa (Official MV)"
+		}
+		//them phan tu o day theo form tuong tu tren
+		
+	]//ket thuc mang ca nhac
+}
